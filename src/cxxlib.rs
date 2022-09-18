@@ -35,7 +35,7 @@ mod agcli {
 
 pub fn get_local_patch_state(path: &String) -> agcli::PatchLocal {
     agcli::PatchLocal {
-        version: String::from("test")
+        version: String::from(path) + " - hello there"
     }
 }
 
